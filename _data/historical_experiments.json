@@ -523,7 +523,7 @@
         }
       ],
       "download_path": "/assets/history/radio-experiments/transients/observed-pulsar-detection-pipeline.ipynb",
-      "recovery_issue_url": "https://github.com/WVURAIL/radio-research-software/issues/56"
+      "recovery_issue_url": "https://github.com/WVURAIL/radio-research-software/issues/1"
     },
     {
       "id": "pulse-simulation-and-detection-pipeline",
@@ -572,7 +572,7 @@
         }
       ],
       "download_path": "/assets/history/radio-experiments/transients/40-foot-telescope-pulsar-experiment.ipynb",
-      "recovery_issue_url": "https://github.com/WVURAIL/radio-research-software/issues/57"
+      "recovery_issue_url": "https://github.com/WVURAIL/radio-research-software/issues/2"
     },
     {
       "id": "pulse-in-beam-spectrum",

@@ -4,8 +4,8 @@ Lessons and classroom resources for Digital Signal Processing in Radio Astronomy
 Visit the [DSPIRA website](https://rail.wvu.edu/dspira/) for teaching materials and downloads.
 Start with [CONTRIBUTING.md](CONTRIBUTING.md) to suggest changes or submit a lesson.
 
-The approved site publishes from `main`. The former approval preview is archived.
-The site is live at `rail.wvu.edu`; the [lab's domain migration record](https://github.com/WVURAIL/wvurail.github.io/blob/main/.github/CUTOVER.md) documents publishing ownership and compatibility routes.
+The lab website build (`WVURAIL/rail.wvu.github.io`) publishes `main` at
+`rail.wvu.edu/dspira/`; this repository does not deploy a site of its own.
 
 ## Find the right files
 
