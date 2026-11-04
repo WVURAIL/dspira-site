@@ -29,15 +29,15 @@ Download a notebook from its preview page to adapt it for your class.
 ## Prepare for class
 
 Open **Equipment and preparation** near the top of each lesson for activity-specific requirements.
-It says which exercises are software only and which need a receiver.
+These notes summarize the written activities. They identify software-only exercises, receiver requirements, and optional alternatives.
 
 1. Open every worksheet, video, and download you plan to use.
 2. Choose the tasks that fit your students' preparation.
 3. Check equipment access and any installation permissions.
 4. Work through the selected tasks and allow time for questions and setup.
 
-We do not have tested classroom timings for this collection, so plan from the tasks you choose. A whole module may not fit in one class.
-Allow separate time for setup, and try any hardware yourself before class.
+Classroom timings have not been confirmed across this collection. Plan from your selected tasks instead of assuming a whole module fits one class.
+Allow setup time separately from student activity time. Hardware testing and classroom use have not been verified by reviewing the written instructions.
 For telescope sessions, review [software compatibility]({{ '/software/' | relative_url }}) before scheduling observations.
 
 [Request a starter kit]({{ '/kits/' | relative_url }}) if equipment access is a barrier.

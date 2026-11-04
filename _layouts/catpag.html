@@ -29,13 +29,15 @@ CSS counter, so that on /all/ the filter cannot renumber the curriculum.
 {%- assign slug = page.category | slugify -%}
 {%- assign module_info = site.data.modules | where: 'category', page.category | first -%}
 
-<div class="interior-head">
+<!-- ===================== MODULE HEAD ===================== -->
+<div class="bg-wvu-blue text-white interior-head">
    <div class="container">
       <div class="row align-items-center">
          <div class="col-24 col-lg-14 mb-4 mb-lg-0">
-            <h1 class="antonia-light interior-title text-wvu-blue mb-3">{{ page.category }}</h1>
+            <p class="fw-bold text-wvu-gold mb-3">Module</p>
+            <h1 class="antonia-light interior-title mb-3">{{ page.category }}</h1>
             {%- if page.lead %}
-            <p class="mb-3">{{ page.lead }}</p>
+            <p class="fs-5 mb-3">{{ page.lead }}</p>
             {%- endif %}
             {%- if lessons and lessons.size > 1 %}
             <p class="fw-bold small mb-0">
@@ -56,6 +58,7 @@ CSS counter, so that on /all/ the filter cannot renumber the curriculum.
 
 {%- assign body = content | strip_newlines | strip %}
 {%- if body != "" %}
+<!-- ===================== INTRO ===================== -->
 <div class="py-4">
    <div class="container">
       <div class="row">
@@ -69,9 +72,10 @@ CSS counter, so that on /all/ the filter cannot renumber the curriculum.
 </div>
 {%- endif %}
 
+<!-- ===================== LESSONS ===================== -->
 <div class="py-4{% if body != '' %} bg-wvu-not-quite-white{% endif %}">
    <div class="container">
-      <h2 class="antonia-light h2 mb-4">
+      <h2 class="antonia-light display-6 mb-4">
          {%- if lessons %}{{ lessons | size }} lesson{% if lessons.size != 1 %}s{% endif %} in this module
          {%- else %}Lessons{% endif %}
       </h2>

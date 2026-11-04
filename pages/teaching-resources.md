@@ -2,6 +2,7 @@
 layout: page
 title: DSPIRA teacher downloads and editable materials
 permalink: /teaching-resources/
+eyebrow: For educators
 lead: Adapt existing materials or create your own with WVU DSPIRA templates.
 meta_description: "Find DSPIRA classroom materials in one teacher download catalog. Print PDFs or adapt editable Word worksheets, guides, and PowerPoint slides for your class."
 ---

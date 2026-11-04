@@ -1,49 +1,46 @@
 ---
 layout: default
 title: DSPIRA lessons
-meta_description: "Free lessons on building and using a horn radio telescope, written by teachers with WVU RAIL and Green Bank Observatory."
+preload_image: /images/night-horn/night-horns.webp
+meta_description: "Explore radio astronomy with DSPIRA. Choose a classroom activity, build a horn telescope, or learn to observe the Milky Way."
 ---
 {%- assign lesson_count = site.posts | size -%}
-<div class="container py-5">
-  <div class="row">
-    <div class="col-24 col-lg-14 mb-4 mb-lg-0">
-      <h1 class="antonia-light interior-title text-wvu-blue mb-4">DSPIRA</h1>
-      <p>Digital Signal Processing in Radio Astronomy (DSPIRA) is a set of {{ lesson_count }} free lessons on building and using a small horn radio telescope. Teachers developed these lessons through an NSF program at West Virginia University, working with Green Bank Observatory.</p>
-      <p>You do not need a telescope to begin. The <a href="{{ '/start/' | relative_url }}">start page</a> has three routes:</p>
-      <ul>
-        <li><a href="{{ '/start/#try' | relative_url }}">Try a classroom activity</a></li>
-        <li><a href="{{ '/start/#build' | relative_url }}">Build a telescope</a></li>
-        <li><a href="{{ '/start/#observe' | relative_url }}">Observe with your telescope</a></li>
-      </ul>
-      <p class="mb-0">If you are planning a class, see <a href="{{ '/teach/' | relative_url }}">Teach with DSPIRA</a>.</p>
-    </div>
-    <div class="col-24 col-lg-9 offset-lg-1">
-      <img src="{{ '/images/modules/observing.jpg' | relative_url }}" alt="Two observers running a horn telescope from camp chairs in a field."
-           decoding="async" class="img-fluid">
+<div class="wvu-bg-size-cover bg-wvu-blue text-white" style="background-image:linear-gradient(rgba(0,32,91,.90),rgba(0,32,91,.94)),url('{{ '/images/night-horn/night-horns.webp' | relative_url }}');background-position:center">
+  <div class="container py-5">
+    <div class="col-24 col-lg-17">
+      <p class="fw-bold text-wvu-gold">Digital Signal Processing in Radio Astronomy</p>
+      <h1 class="antonia-light display-3 mb-4">Explore the radio sky.</h1>
+      <p class="fs-4">Start with a classroom activity, build a telescope, or observe the Milky Way. Our {{ lesson_count }} lessons are free.</p>
+      <a class="btn btn-wvu-gold me-2 mb-2" href="{{ '/start/#try' | relative_url }}">Try an activity</a>
+      <a class="btn btn-light me-2 mb-2" href="{{ '/start/#build' | relative_url }}">Build a telescope</a>
+      <a class="btn btn-light mb-2" href="{{ '/start/#observe' | relative_url }}">Use your telescope</a>
+      <p class="mt-3 mb-0">Planning a class? <a class="text-white" href="{{ '/teach/' | relative_url }}">Find teaching guidance</a>.</p>
     </div>
   </div>
 </div>
-<div class="container pb-5">
-  <div class="row"><div class="col-24 col-lg-17">
-    <h2 class="antonia-light h2 mb-3">Lessons</h2>
-    <p>The modules are listed in the order a new builder would use them. You can also <a href="{{ '/all/' | relative_url }}">search every lesson</a>.</p>
-    <ol class="mb-0">
-      {%- for m in site.data.modules -%}
-      {%- assign lessons = site.categories[m.category] | sort: 'order' -%}
-      <li class="module"><a href="{{ m.category | slugify | prepend: '/categories/' | append: '/' | relative_url }}">{{ m.category }}</a> ({{ lessons | size }} lessons). {{ m.blurb }}</li>
-      {%- endfor -%}
-    </ol>
-  </div></div>
+<div class="container py-5">
+  <h2 class="antonia-light display-5">Explore the modules</h2>
+  <p>Browse a topic or <a href="{{ '/all/' | relative_url }}">search every lesson</a>. Optional designs and advanced projects can wait.</p>
+  <ol class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 list-unstyled">
+    {%- for m in site.data.modules -%}
+    {%- assign lessons = site.categories[m.category] | sort: 'order' -%}
+    <li class="module">
+      <div class="card h-100 bg-wvu-not-quite-white"><div class="card-body p-4">
+        <h3 class="h5 helvetica-neue-bold"><a href="{{ m.category | slugify | prepend: '/categories/' | append: '/' | relative_url }}">{{ m.category }}</a></h3>
+        <p>{{ m.blurb }}</p>
+        <p class="small mb-0">{{ lessons | size }} lessons</p>
+      </div></div>
+    </li>
+    {%- endfor -%}
+  </ol>
 </div>
-<div class="container pb-5">
-  <div class="row"><div class="col-24 col-lg-17">
-    <h2 class="antonia-light h2 mb-3">Help</h2>
-    <ul>
-      <li><a href="{{ '/kits/' | relative_url }}">Request a starter receiver and amplifier kit</a></li>
-      <li><a href="https://wvurail.org/lightwork/">LightWork technical guides</a> for construction and measurement</li>
-      <li><a href="{{ '/newpost/' | relative_url }}">Share an activity</a> by email</li>
-      <li><a href="{{ '/forum/' | relative_url }}">Ask the community</a>, or email <a href="mailto:rail@wvu.edu">rail@wvu.edu</a></li>
-    </ul>
-    <p class="mb-0">More about the program is on the <a href="{{ '/about/' | relative_url }}">About page</a>.</p>
-  </div></div>
-</div>
+<div class="bg-wvu-not-quite-white py-5"><div class="container">
+  <h2 class="antonia-light display-6">Help for your next step</h2>
+  <ul>
+    <li><a href="{{ '/kits/' | relative_url }}">Request a starter receiver and amplifier kit</a>.</li>
+    <li><a href="https://wvurail.org/lightwork/">Explore LightWork technical guides</a> for construction and measurement references.</li>
+    <li><a href="{{ '/newpost/' | relative_url }}">Share an activity</a> using a document and email.</li>
+    <li><a href="{{ '/forum/' | relative_url }}">Ask the community</a> or email <a href="mailto:rail@wvu.edu">rail@wvu.edu</a>.</li>
+  </ul>
+  <p class="mb-0">Teachers developed these lessons with WVU RAIL and Green Bank Observatory. <a href="{{ '/about/' | relative_url }}">About DSPIRA</a>.</p>
+</div></div>

@@ -1,7 +1,7 @@
 ---
 layout: catpag
 category: Astronomy
-lead: Coordinates, the Milky Way and measuring its rotation.
+lead: The science the telescope is for — coordinates, the Milky Way, and measuring its rotation.
 meta_description: "Explore DSPIRA astronomy activities about the Milky Way, celestial coordinates, and orbital motion. Connect classroom models to telescope data."
 ---
 

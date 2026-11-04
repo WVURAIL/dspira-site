@@ -2,7 +2,8 @@
 layout: page
 title: Radio transient simulation notebooks and data
 permalink: /research-examples/
-lead: Pulsar simulations, reference samples and transient-detection designs.
+eyebrow: Research examples
+lead: Explore pulsar simulations, reference samples, and transient-detection designs.
 meta_description: "Download radio transient research notebooks, binary reference data, and detection diagrams. Read compatibility notes and limitations before using the examples."
 ---
 

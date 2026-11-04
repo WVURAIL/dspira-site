@@ -2,6 +2,7 @@
 layout: page
 title: Notebook Examples
 permalink: /notebooks/
+eyebrow: Worked examples
 lead: Read Python examples, explore their plots, and download notebooks to try yourself.
 meta_description: "Read DSPIRA notebook examples for radio astronomy, I/Q sampling, interferometry, and pulsar simulations. Download notebooks and available sample data."
 ---

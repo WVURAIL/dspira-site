@@ -2,6 +2,7 @@
 layout: page
 title: DSPIRA historical material
 permalink: /history/
+eyebrow: Project history
 lead: Browse earlier radio astronomy experiments, original files, and lab images.
 meta_description: "Explore earlier DSPIRA radio astronomy experiments and lab images. Download original experiment files with source records and author credits."
 ---

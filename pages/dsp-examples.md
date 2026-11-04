@@ -2,7 +2,8 @@
 layout: page
 title: DSPIRA signal-processing exercise downloads
 permalink: /dsp-examples/
-lead: Signals, Fourier analysis, filters and receiver designs in GNU Radio.
+eyebrow: DSP exercises
+lead: Explore signals, Fourier analysis, filters, and receiver designs with GNU Radio.
 meta_description: "Download 29 DSPIRA GNU Radio exercises for signals, Fourier analysis, sampling, and filters. Review compatibility checks before using them."
 ---
 

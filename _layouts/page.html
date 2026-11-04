@@ -11,13 +11,17 @@ The wrapper class "prose" stays: the residual stylesheet targets it for images,
 tables and figures in the markdown.
 {%- endcomment -%}
 {%- unless page.hide_title %}
-<div class="interior-head">
+<!-- ===================== PAGE HEAD ===================== -->
+<div class="bg-wvu-blue text-white interior-head">
    <div class="container">
       <div class="row">
          <div class="col-24 col-lg-16">
-            <h1 class="antonia-light interior-title text-wvu-blue mb-3">{{ page.title }}</h1>
+            {%- if page.eyebrow %}
+            <p class="fw-bold text-wvu-gold mb-3">{{ page.eyebrow }}</p>
+            {%- endif %}
+            <h1 class="antonia-light interior-title mb-3">{{ page.title }}</h1>
             {%- if page.lead %}
-            <p class="mb-0">{{ page.lead }}</p>
+            <p class="fs-5 mb-0">{{ page.lead }}</p>
             {%- endif %}
          </div>
       </div>
@@ -25,6 +29,7 @@ tables and figures in the markdown.
 </div>
 {%- endunless %}
 
+<!-- ===================== CONTENT ===================== -->
 <div class="py-4">
    <div class="container">
       <div class="row">

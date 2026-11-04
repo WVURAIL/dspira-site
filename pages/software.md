@@ -9,10 +9,10 @@ lead: Check compatibility before choosing an installation route or scheduling cl
 ## Before you install
 
 The existing telescope lessons describe Ubuntu and GNU Radio with a compatible SDR receiver.
-Check your computer, receiver model, and GNU Radio version together. A clean installation does not show that the receiver or calibration works.
+Check your computer, receiver model, and GNU Radio version together. Installation success alone does not verify receiver operation or calibration.
 
-On GNU Radio 3.10.9.2, all seven applications generate Python with the DSPIRA blocks installed, and that Python passes syntax checks.
-We have not yet tested receiver operation or hardware calibration on this version.
+**Generation checks pass on GNU Radio 3.10.9.2.** All seven applications generate Python successfully with the DSPIRA blocks installed.
+Generated Python also passes syntax checks. Receiver operation and hardware calibration still need testing.
 Read the [compatibility results and remaining checks](https://github.com/WVURAIL/dspira-software/blob/main/docs/compatibility.md) before using these applications in class.
 
 Email [rail@wvu.edu](mailto:rail@wvu.edu) with your operating system, GNU Radio version, and receiver model for setup guidance.

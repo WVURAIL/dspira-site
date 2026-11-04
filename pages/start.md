@@ -29,7 +29,7 @@ The [starter kit]({{ '/kits/' | relative_url }}) supplies only the receiver and 
 5. Continue to [Observing]({{ '/categories/observing/' | relative_url }}) when the system is ready.
 
 Construction needs tools, workspace, and appropriate supervision. Review the instructions before scheduling class sessions.
-[Other horn designs]({{ '/Other_Horn_Designs' | relative_url }}) are optional.
+[Other horn designs]({{ '/Other_Horn_Designs' | relative_url }}) are optional alternatives, not additional required builds.
 
 ## Use your telescope {#observe}
 
