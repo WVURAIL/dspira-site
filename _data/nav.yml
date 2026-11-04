@@ -1,15 +1,13 @@
 - text: Start here
   url: /start/
-- text: All lessons
+- text: Lessons
   url: /all/
 - text: Teach
   url: /teach/
 - text: Telescope kits
   url: /kits/
-- text: Forums
+- text: Help
   url: /forum/
-- text: About
-  url: /about/
 - text: WVU RAIL
   url: /
   home: true
