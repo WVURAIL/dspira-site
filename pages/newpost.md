@@ -46,7 +46,7 @@ The lesson receives a permanent address that can be used in handouts.
 
 Regular contributors can submit a pull request to the [DSPIRA repository](https://github.com/WVURAIL/dspira).
 <a href="{{ '/assets/templates/lesson-template.txt' | relative_url }}" download="lesson-template.md">Download website lesson template (.md)</a>
-and follow the [contributor guide](https://github.com/WVURAIL/dspira/blob/main/CONTRIBUTING.md).
+and follow the [contributor guide](https://github.com/WVURAIL/dspira-site/blob/main/CONTRIBUTING.md).
 This Markdown template includes the metadata and headings needed for a website lesson.
 
 Replace the template prompts. Choose one existing module and an unused order value. Ask a maintainer if either choice is unclear.

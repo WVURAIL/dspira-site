@@ -181,7 +181,7 @@ You have the opportunity to discover the Milky Way for yourself, with the tools 
 LightWork Memos
 The more detailed tests of the system are in a set of memos.  You’re invited to contribute to these memos:
 
-[The LightWork memo series](/lightwork/)
+[The LightWork memo series](https://wvurail.org/lightwork/)
 
 Live Video Demo
 

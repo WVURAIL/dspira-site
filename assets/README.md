@@ -104,7 +104,7 @@ Photo and diagram bytes remain unchanged when files move.
 
 - [dspira-software](https://github.com/WVURAIL/dspira-software): telescope applications, GNU Radio flowgraphs, and reusable observation-processing scripts.
 - [dspira-hardware](https://github.com/WVURAIL/dspira-hardware/tree/main/assembly): amplifier parts guides and component locations.
-- [LightWork](https://rail.wvu.edu/lightwork/): technical memos.
+- [LightWork](https://wvurail.org/lightwork/): technical memos.
 
 Link to those resources instead of committing another copy here.
 Keep original author credits, licenses, and editable files with their material.

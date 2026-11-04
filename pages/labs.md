@@ -53,5 +53,5 @@ hydrogen line work; theirs is
 
 **[WISRD](https://www.wisrd.org/)** runs radio telescopes beside a cosmic-ray detector. Its full name is the Wildwood Institute for STEM Research and Development. See [their work in Community Labs]({{ site.baseurl }}/WISRDUpdate).
 
-**[LightWork Memos](/lightwork/)** — the numbered memo series
+**[LightWork Memos](https://wvurail.org/lightwork/)** — the numbered memo series
 on citizen science with radio telescopes, several of which use this hardware.

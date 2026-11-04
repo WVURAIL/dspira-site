@@ -32,6 +32,6 @@ pages 2 to 12. The report describes four scintillators, their photomultiplier tu
 ## If you want to try this
 
 Find event detection and dedispersion in [radio research software](https://github.com/WVURAIL/radio-research-software).
-The correlator and triggered CSV recorder are part of [DSPIRA software](https://github.com/WVURAIL/dspira-software). The [LightWork memo series](/lightwork/) covers event capture in memos 023 and 027.
+The correlator and triggered CSV recorder are part of [DSPIRA software](https://github.com/WVURAIL/dspira-software). The [LightWork memo series](https://wvurail.org/lightwork/) covers event capture in memos 023 and 027.
 
 The group's own site is at [wisrd.org](https://www.wisrd.org/).

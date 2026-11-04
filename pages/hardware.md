@@ -31,7 +31,7 @@ Use `fabrication/v3/` for the existing version 3 board.
 
 [Download hardware design files (ZIP)](https://github.com/WVURAIL/dspira-hardware/archive/refs/heads/main.zip){: .btn .btn-wvu-blue}
 
-[LightWork technical guides](/lightwork/) provide additional construction and measurement references.
+[LightWork technical guides](https://wvurail.org/lightwork/) provide additional construction and measurement references.
 
 <details markdown="1">
 <summary>Earlier amplifier design notes</summary>

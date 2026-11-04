@@ -37,7 +37,7 @@ Start with [telescope setup]({{ '/Telescope_Setup' | relative_url }}), then [run
 Follow [the calibration procedure]({{ '/HornOperation_Calibration' | relative_url }}) before collecting calibrated observations.
 The [Observing module]({{ '/categories/observing/' | relative_url }}) continues through saving and analyzing data.
 
-[LightWork technical guides](/lightwork/) provide additional construction and measurement references.
+[LightWork technical guides](https://wvurail.org/lightwork/) provide additional construction and measurement references.
 
 ## Get help
 

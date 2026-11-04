@@ -19,9 +19,9 @@ preparation: "Choose one horn design. These alternatives are not additional requ
 {% include youtube.html title="Baby DSPIRA horn construction playlist" url="https://youtube.com/playlist?list=PLxSg3s3C3JCH2yBC_kHLGCpd0tqQ6gM1h" playlist="PLxSg3s3C3JCH2yBC_kHLGCpd0tqQ6gM1h" %}
 </figure>
 
-*  [Radio Telescope Base Construction Guide (view PDF)](/lightwork/memos/memo-021-r6.pdf) - Instructions for building a radio horn telescope similar in design to the DSPIRA horn.
+*  [Radio Telescope Base Construction Guide (view PDF)](https://github.com/WVURAIL/lightwork/blob/website-updates/memos/memo-021-r6.pdf) - Instructions for building a radio horn telescope similar in design to the DSPIRA horn.
 
-*  [Cone Horn Construction (view PDF)](/lightwork/memos/history/memo-022-r13.pdf) - Instructions for building a cylindrical radio horn with a cylindrical can.
+*  [Cone Horn Construction (view PDF)](https://github.com/WVURAIL/lightwork/blob/website-updates/memos/history/memo-022-r13.pdf) - Instructions for building a cylindrical radio horn with a cylindrical can.
 
 
 For software setup, use the [installation guide]({{ '/install-software/' | relative_url }}) or [bootable images]({{ '/Install_Ubuntu_spectrometer_onFlashdrive' | relative_url }}).

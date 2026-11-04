@@ -39,7 +39,7 @@ baseurl:     "/dspira"
 
 # The lab site is a separate site on this host. Links to its education pages
 # use lab_url, which can be overridden for a local or isolated preview.
-# LightWork is a separate GitHub Pages project at /lightwork/.
+# LightWork is published separately at wvurail.org/lightwork/
 lab_url: ""
 # The custom domain is inherited from the organization site's CNAME.
 # This URL supplies canonical links, og:url, and the sitemap; keep it aligned

@@ -15,4 +15,4 @@ Choose an example, then follow its README for dependencies and instructions.
 
 Keep lesson-specific examples and small datasets here.
 Reusable telescope analysis scripts belong in [DSPIRA software](https://github.com/WVURAIL/dspira-software/tree/main/data-processing).
-Website publishing and checks remain in [tools](https://github.com/WVURAIL/dspira/tree/main/tools).
+Website publishing and checks remain in [tools](https://github.com/WVURAIL/dspira-site/tree/main/tools).
