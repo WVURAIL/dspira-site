@@ -20,9 +20,7 @@
   preparation: "Review the complete parts overview before cutting or assembling."
   next_module: Receiver Electronics
   blurb: >-
-    Foil-faced insulation board, aluminum tape, dimensional lumber, and a
-    paint-thinner can for the throat. The finished stand is 75 cm across, so it
-    fits through a classroom door.
+    A horn telescope has three major parts: the antenna, the support stand and the back-end electronics. These lessons cover the antenna and stand, built from insulation board, aluminum tape and lumber. The finished stand fits through a classroom door, and a complete telescope costs a few hundred dollars.
   alt: A finished horn telescope on its wooden stand in a field.
 
 - category: Receiver Electronics
@@ -30,7 +28,7 @@
   preparation: "Choose components before assembly. Soldering tasks require appropriate supervision."
   next_module: Software Setup
   blurb: >-
-    The amplifier affects telescope sensitivity. Take time to choose and assemble it carefully. Compare the DSPIRA board with ready-made options before ordering parts.
+    The back-end electronics are an amplifier, a software-defined radio (SDR) receiver and a computer. Compare the DSPIRA amplifier with ready-made options before ordering parts.
   alt: A soldering station set up for assembling the low-noise amplifier.
 
 - category: Software Setup
@@ -38,7 +36,7 @@
   preparation: "Check the software compatibility guide before changing your computer."
   next_module: Observing
   blurb: >-
-    Ubuntu, GNU Radio, and the DSPIRA blocks. Review compatibility before choosing an installation route for your computer.
+    The horn telescope uses digital signal processing (DSP), which requires the right software. These lessons cover computer and software options and detailed instructions for installing Ubuntu, GNU Radio and the DSPIRA blocks.
   alt: A GNU Radio flowgraph for the DSPIRA spectrometer.
 
 - category: Observing
@@ -46,7 +44,7 @@
   preparation: "Complete receiver setup. Follow the calibration procedure before recording calibrated observations."
   next_module: Astronomy
   blurb: >-
-    Set up and calibrate your telescope, record spectra, and analyze observations of the Milky Way.
+    You've built a horn telescope. Now what? How do I set it up? How do I take measurements with it? These lessons cover operating a horn telescope, calibrating it and analyzing observations of the Milky Way.
   alt: Two observers running a horn telescope from camp chairs in a field.
 
 - category: Digital Signal Processing
@@ -54,14 +52,14 @@
   preparation: "Start with the introductory lab before the later signal-processing exercises."
   next_module: Astronomy
   blurb: >-
-    Six labs build a GNU Radio spectrometer one block at a time. Topics include sampling, Fourier analysis, filters, and correlation. Correlation turns two horns into an interferometer.
+    Activities using GNU Radio for digital signal processing. Six labs build a spectrometer one block at a time, through sampling, Fourier analysis, filters and correlation.
   alt: A spectrum with the 21 cm neutral hydrogen line standing above the noise.
 
 - category: Astronomy
   equipment: "Activity worksheets and a computer; observing projects also need telescope data."
   preparation: "Read the activity materials and teacher notes to select the appropriate level."
   blurb: >-
-    Learn where to point and how hydrogen appears at 21 cm. Use a rotation curve to investigate dark matter.
+    A horn telescope can be used for basic observation and research at the high school level, or by enthusiast hobbyists. This module covers where to point, how hydrogen appears at 21 cm, and how a rotation curve can be used to investigate dark matter.
   alt: Horn telescopes and a lit tent under a field of stars at Green Bank.
 
 - category: Community Labs
