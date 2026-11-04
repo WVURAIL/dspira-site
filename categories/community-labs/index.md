@@ -1,7 +1,7 @@
 ---
 layout: catpag
 category: Community Labs
-lead: Work contributed by the classrooms and clubs that have taken this hardware and run with it.
+lead: Work contributed by classrooms and clubs using this hardware.
 meta_description: "Explore projects from schools, clubs, and student groups using DSPIRA hardware. Read about motorized mounts, cosmic rays, and telescope tests."
 ---
 

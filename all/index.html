@@ -25,15 +25,14 @@ Hooks other things depend on, kept exactly as written:
   * data-lesson-filter, .filter__input, .filter__count, [data-module],
     .lesson-card[data-search] are what lessons.js queries.
 {%- endcomment -%}
-<div class="bg-wvu-blue text-white interior-head">
+<div class="interior-head">
    <div class="container">
       <div class="row">
          <div class="col-24 col-lg-16">
-            <p class="fw-bold text-wvu-gold mb-3">Browse</p>
-            <h1 class="antonia-light interior-title mb-4">Every lesson</h1>
-            <p class="fs-4 mb-0">
+            <h1 class="antonia-light interior-title text-wvu-blue mb-4">Every lesson</h1>
+            <p class="mb-0">
                {{ site.posts | size }} lessons in {{ site.data.modules | size }} modules. Search for a topic or browse below.
-               <a class="text-white" href="{{ '/start/' | relative_url }}">Find a starting point</a>.
+               <a href="{{ '/start/' | relative_url }}">Find a starting point</a>.
             </p>
          </div>
       </div>
@@ -87,7 +86,7 @@ forloop.index so it matches the front page and the category pages.
             <div class="col-24 col-md-16 col-lg-18">
                <p data-module-intro class="fw-bold small text-wvu-blue mb-2">Module {{ forloop.index }} &middot;
                   {{ lessons | size }} lesson{% if lessons.size != 1 %}s{% endif %}</p>
-               <h2 class="antonia-light display-6 mb-2"><a class="text-decoration-none" href="{{ href }}">{{ m.category }}</a></h2>
+               <h2 class="antonia-light h2 mb-2"><a class="text-decoration-none" href="{{ href }}">{{ m.category }}</a></h2>
                <p data-module-intro class="fs-5 text-body-secondary mb-0">{{ m.blurb }}</p>
             </div>
          </div>

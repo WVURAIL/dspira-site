@@ -2,8 +2,7 @@
 layout: page
 title: Where DSPIRA is used
 permalink: /labs/
-eyebrow: The record
-lead: Classrooms, clubs, courses and conference halls where this hardware and these lessons have turned up.
+lead: Classrooms, clubs, courses and conferences that have used DSPIRA hardware and lessons.
 meta_description: "See where DSPIRA telescopes and lessons are used. Explore classroom programs, research groups, presentations, and independent radio projects."
 ---
 

@@ -15,10 +15,10 @@ GitHub say so in their text and open in the same tab.
 {%- endcomment -%}
 {%- assign discussions = "https://github.com/" | append: site.data.forum.repo | append: "/discussions" %}
 
-Pick the room closest to your question, or browse everything from the button at
+Pick the category closest to your question, or browse them all from the link at
 the end. The threads go back to 2020.
 
-## The rooms
+## Discussion categories
 
 <ul class="list-unstyled ps-0 row g-4 mb-5">
 {%- for pair in site.data.forum.rooms %}

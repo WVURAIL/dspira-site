@@ -2,7 +2,6 @@
 layout: page
 title: DSPIRA repository map
 permalink: /repository-map/
-eyebrow: Project organization
 lead: Find the current home for lessons, applications, research software, hardware, and historical material.
 meta_description: "Find current DSPIRA repositories and replacement links. See where classroom software, research software, hardware designs, and lessons are maintained."
 ---

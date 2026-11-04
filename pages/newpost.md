@@ -2,7 +2,6 @@
 layout: page
 title: Contribute a DSPIRA lesson
 permalink: /newpost/
-eyebrow: For contributors
 lead: Share an activity, worksheet, or improvement with the DSPIRA teaching community.
 meta_description: "Contribute a DSPIRA lesson or worksheet. Download a Word lesson template, submit your draft, and review a preview before classroom materials are published."
 ---

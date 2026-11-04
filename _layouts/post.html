@@ -34,24 +34,20 @@ targets it for images, tables and figures in the markdown.
 {%- endfor -%}
 {%- assign module_url = module | slugify | prepend: '/categories/' | append: '/' | relative_url -%}
 
-<!-- ===================== PAGE HEAD ===================== -->
-<div class="bg-wvu-blue text-white interior-head">
+<div class="interior-head">
    <div class="container">
       <div class="row">
          <div class="col-24 col-lg-16">
-            <p class="fw-bold text-wvu-gold mb-3">
-               {%- if module %}{{ module }}{% else %}Lesson{% endif -%}
-            </p>
-            <h1 class="antonia-light interior-title mb-3">{{ page.title }}</h1>
+            {%- if module %}<p class="small mb-2"><a href="{{ module | slugify | prepend: '/categories/' | append: '/' | relative_url }}">{{ module }}</a></p>{% endif %}
+            <h1 class="antonia-light interior-title text-wvu-blue mb-3">{{ page.title }}</h1>
             {%- if page.summary %}
-            <p class="fs-5 mb-0">{{ page.summary }}</p>
+            <p class="mb-0">{{ page.summary }}</p>
             {%- endif %}
          </div>
       </div>
    </div>
 </div>
 
-<!-- ===================== LESSON ===================== -->
 <div class="py-4">
    <div class="container">
       <div class="row">

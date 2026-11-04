@@ -12,26 +12,24 @@ row-cols grid, which sizes its children without a column class on each.
 {%- endcomment -%}
 {%- assign lessons = site.tags[page.tag] -%}
 
-<!-- ===================== PAGE HEAD ===================== -->
-<div class="bg-wvu-blue text-white py-6">
+<div class="bg-wvu-blue text-white py-4">
    <div class="container">
       <div class="row">
          <div class="col-24 col-lg-16">
             <p class="fw-bold text-wvu-gold mb-3">Written for</p>
             <h1 class="antonia-light display-4 mb-3">{{ page.tag | replace: '-', ' ' }}</h1>
             {%- if page.lead %}
-            <p class="fs-5 mb-0">{{ page.lead }}</p>
+            <p class="mb-0">{{ page.lead }}</p>
             {%- endif %}
          </div>
       </div>
    </div>
 </div>
 
-<!-- ===================== LESSONS ===================== -->
-<div class="py-6">
+<div class="py-4">
    <div class="container">
       {%- if lessons and lessons.size > 0 %}
-      <h2 class="antonia-light display-6 mb-4">
+      <h2 class="antonia-light h2 mb-4">
          {{ lessons | size }} lesson{% if lessons.size != 1 %}s{% endif %}
       </h2>
       <ul class="list-unstyled row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-0">

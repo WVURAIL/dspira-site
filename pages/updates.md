@@ -2,7 +2,6 @@
 layout: page
 title: DSPIRA lesson updates
 permalink: /updates/
-eyebrow: Stay connected
 lead: Browse the latest lessons, or follow new posts in your RSS reader.
 meta_description: "Read the latest DSPIRA lessons and follow new posts in your RSS reader. Find the feed address and simple subscription instructions."
 ---
